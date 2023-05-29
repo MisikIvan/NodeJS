@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #ececec;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 10px;
+}
+
+.nav-menu li {
+    display: inline;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 25px;
+    list-style-type: none;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    font-size: larger;
+}
+
+.logo-text a {
+    font-size: xx-large;
+}
+
+.nav-menu a:hover {
+    color: rgb(201, 138, 94);
+    transform: scale(11);
+    transition: .4s;
+}
